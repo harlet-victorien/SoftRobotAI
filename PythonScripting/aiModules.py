@@ -56,7 +56,7 @@ def get_inputs(message):
         # Define the new parameters
         real_input = [np.array([x, y, z], dtype=np.float32)]
 
-        session = ort.InferenceSession("Models/RobotAgent7.onnx")
+        session = ort.InferenceSession("Models/RobotAgentPosition.onnx")
         # Perform the inference
         outputs = session.run(None, {session.get_inputs()[0].name: real_input})
         outputs = outputs[2][0].tolist()
