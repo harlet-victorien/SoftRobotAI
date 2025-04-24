@@ -7,9 +7,9 @@
 - Download the Build5 folder in Unity/UnityBuilds
 - Download the PythonScripting folder
 - You need this modules for your python version :
-- - onnxruntime
-- - numpy
-- - mistralai
+  - onnxruntime
+  - numpy
+  - mistralai
 - Run the pipeline.py script in your PythonScript folder
 - Run the Soft.exe file in the Build5 folder
 
