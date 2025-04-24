@@ -17,3 +17,7 @@
 ### **If you want to open the whole unity project**
  
 Import one of the packages in the Unity folder in your unity project
+
+---
+
+[VIDEO](https://github.com/harlet-victorien/SoftRobotAI/Videos/Use2Prompts.mp4)
