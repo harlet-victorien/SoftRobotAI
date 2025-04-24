@@ -8,6 +8,7 @@
 - Download the PythonScripting folder
 - You need this modules for your python version :
   - onnxruntime
+  - flask
   - numpy
   - mistralai
 - Run the pipeline.py script in your PythonScript folder
