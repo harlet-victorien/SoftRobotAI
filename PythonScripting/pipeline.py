@@ -4,28 +4,8 @@ import numpy as np
 import aiModules as ai
 
 app = Flask(__name__)
-session = ort.InferenceSession("Models/RobotAgent5.onnx")
 
-# Endpoint to return a vector
-@app.route('/get_vector', methods=['POST'])
-def get_vector():
-    data = request.json
-    message = data.get('message', '')
-    print(f"Message reçu: {message}")
-    real_input = message.split(", ")
-    x = float(real_input[0].replace(",", "."))
-    y = float(real_input[1].replace(",", "."))
-    z = float(real_input[2].replace(",", "."))
 
-    real_input = [np.array([x, y, z], dtype=np.float32)]
-    print(f"Message split: {real_input}")
-    # Faire l'inférence
-    outputs = session.run(None, {session.get_inputs()[0].name: real_input})
-    outputs = outputs[2][0].tolist()
-    for i in range(len(outputs)):
-        outputs[i] = (outputs[i] + 1) * 7.5
-    print(f"Message envoyé: {outputs}")
-    return jsonify({"vector": outputs})
 
 # Endpoint to return a list of methods with parameters
 @app.route('/get_methods', methods=['POST'])
