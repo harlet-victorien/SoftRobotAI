@@ -20,4 +20,4 @@ Import one of the packages in the Unity folder in your unity project
 
 ---
 
-[VIDEO](https://github.com/harlet-victorien/SoftRobotAI/Videos/Use2Prompts.mp4)
+[VIDEO](https://github.com/harlet-victorien/SoftRobotAI/blob/master/Videos/Use2Prompts.mp4)
