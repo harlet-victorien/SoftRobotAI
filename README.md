@@ -9,6 +9,7 @@
 - You need this modules for your python version :
   - onnxruntime
   - flask
+  - requests
   - numpy
   - mistralai
 - Run the pipeline.py script in your PythonScript folder
