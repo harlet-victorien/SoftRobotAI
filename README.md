@@ -1,7 +1,7 @@
 # Soft Robot AI project
 
 ## Reinforcement learning for movement and LLM for natural language commands to control a soft robot 
-
+![Picture1](https://github.com/user-attachments/assets/62ce3340-0526-4410-8db4-49b97ffcf73d)
 ### **If you want to try the model out** :
 
 - Download the Build5 folder in Unity/UnityBuilds
@@ -19,7 +19,7 @@
 ### **If you want to open the whole unity project**
  
 Import one of the packages in the Unity folder in your unity project
-
 ---
+
 ### **Video example**
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vEqOlztPaP4/0.jpg)](https://www.youtube.com/watch?v=vEqOlztPaP4)
