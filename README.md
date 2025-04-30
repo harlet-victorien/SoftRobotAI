@@ -22,4 +22,4 @@ Import one of the packages in the Unity folder in your unity project
 
 ---
 
-[VIDEO](https://www.youtube.com/watch?v=vEqOlztPaP4)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vEqOlztPaP4/0.jpg)](https://www.youtube.com/watch?v=vEqOlztPaP4)
