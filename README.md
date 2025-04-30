@@ -22,4 +22,4 @@ Import one of the packages in the Unity folder in your unity project
 
 ---
 
-[VIDEO](https://youtu.be/vEqOlztPaP4)
+[VIDEO](https://www.youtube.com/watch?v=vEqOlztPaP4)
